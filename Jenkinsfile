@@ -7,8 +7,6 @@ pipeline {
             steps {
                 git branch: 'main', url: 'https://github.com/haseebn29/8.1C_TASK1.git'
             }
-
-            }
         }
  
         stage('Build') {
